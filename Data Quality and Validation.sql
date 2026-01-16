@@ -1,4 +1,6 @@
 -- Use the following "Sales_Transactions" dataset for all questions:
+CREATE DATABASE temp;
+USE temp;
 
 CREATE TABLE Sales_Transactions (
     Txn_ID INT PRIMARY KEY,
@@ -46,8 +48,7 @@ CREATE TABLE Customers_Master (
 
 -- Inserting data given data only:
 INSERT INTO Customers_Master (CustomerID, CustomerName, City)
-VALUES
-('C101', 'Rahul Mehta', 'Mumbai'),
+VALUES ('C101', 'Rahul Mehta', 'Mumbai'),
 ('C102', 'Anjali Rao', 'Bengaluru'),
 ('C103', 'Suresh Iyer', 'Chennai'),
 ('C104', 'Neha Singh', 'Delhi');
